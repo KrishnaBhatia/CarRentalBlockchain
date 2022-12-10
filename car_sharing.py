@@ -25,7 +25,8 @@ class Owner:
         blockchain.mine()
 
 class Customer:
-    def __init__(self, balance):
+    def __init__(self, balance, name):
+        self.name = name
         self.balance = balance
         self.contract = SmartContract
 
@@ -63,8 +64,3 @@ class Car:
 
     def allow_to_use(self):
         self.allowed_to_use = True
-
-
-
-
-

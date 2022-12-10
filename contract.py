@@ -55,5 +55,3 @@ class BookingDetails:
 
     def get_car(self):
         return self.car
-
-
