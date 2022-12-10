@@ -26,7 +26,7 @@ class Block:
 
 
 class Blockchain:
-    # difficulty of our PoW algorithm
+    # setting difficulty of our PoW algorithm
     difficulty = 2
 
     def __init__(self):
